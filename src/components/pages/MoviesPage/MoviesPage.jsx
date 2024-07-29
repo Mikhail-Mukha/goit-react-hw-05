@@ -59,7 +59,7 @@ const MoviesPage = () => {
 
   return (
     <div className={s.searchMovies}>
-      <h2>Search Movies</h2>
+      <h2 className={s.text}>Search Movies</h2>
       <form className={s.form} onSubmit={onSubmit}>
         <input
           placeholder="Enter search movie..."

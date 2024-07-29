@@ -15,7 +15,7 @@ const MovieDetailsPage = () => {
   const { movieId } = useParams();
   const [error, setError] = useState(null);
   const location = useLocation();
-  const goBack = useRef(location.state?.from ?? "/movies");
+  const goBack = useRef(location.state?.from ?? "/");
 
   useEffect(() => {
     try {
