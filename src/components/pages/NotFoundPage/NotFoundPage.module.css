@@ -1,0 +1,22 @@
+.notFound {
+  text-align: center;
+  font-size: 2rem;
+  color: red;
+  margin: 20px 0;
+}
+
+.link {
+  display: block;
+  text-align: center;
+  font-size: 1rem;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #ddd;
+}

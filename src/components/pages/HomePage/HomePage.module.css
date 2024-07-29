@@ -1,0 +1,11 @@
+.title {
+  text-align: center;
+  font-size: 2rem;
+  margin: 20px 0;
+  color: black;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}

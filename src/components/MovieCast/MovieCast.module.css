@@ -1,0 +1,21 @@
+.error {
+  color: red;
+  text-align: center;
+}
+
+.p {
+  font-size: 1rem;
+  text-align: center;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+li {
+  text-align: center;
+  width: 150px;
+}
