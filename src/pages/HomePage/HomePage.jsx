@@ -17,7 +17,7 @@ const HomePage = () => {
       }
     };
     FetchData();
-  });
+  }, []);
 
   return (
     <div>
