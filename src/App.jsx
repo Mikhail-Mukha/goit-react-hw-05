@@ -3,20 +3,16 @@ import { Route, Routes } from "react-router-dom";
 import s from "./App.module.css";
 import { ThreeCircles } from "react-loader-spinner";
 
-const MoviesPage = lazy(() =>
-  import("./components/pages/MoviesPage/MoviesPage")
-);
-const HomePage = lazy(() => import("./components/pages/HomePage/HomePage"));
+const MoviesPage = lazy(() => import("./pages/MoviesPage/MoviesPage"));
+const HomePage = lazy(() => import("./pages/HomePage/HomePage"));
 const MovieDetailsPage = lazy(() =>
-  import("./components/pages/MovieDetailsPage/MovieDetailsPage")
+  import("./pages/MovieDetailsPage/MovieDetailsPage")
 );
 const MovieCast = lazy(() => import("./components/MovieCast/MovieCast"));
 const MovieReviews = lazy(() =>
   import("./components/MovieReviews/MovieReviews")
 );
-const NotFoundPage = lazy(() =>
-  import("./components/pages/NotFoundPage/NotFoundPage")
-);
+const NotFoundPage = lazy(() => import("./pages/NotFoundPage/NotFoundPage"));
 const Navigation = lazy(() => import("./components/Navigation/Navigation"));
 
 function App() {

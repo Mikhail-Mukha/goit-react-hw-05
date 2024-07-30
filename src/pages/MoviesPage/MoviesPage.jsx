@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
-import MovieList from "../../MovieList/MovieList";
-import { searchMovies } from "../../../api";
+import MovieList from "../../components/MovieList/MovieList";
+import { searchMovies } from "../../api";
 import s from "./MoviesPage.module.css";
 import { useSearchParams } from "react-router-dom";
 
